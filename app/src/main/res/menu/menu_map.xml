@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/home"
+        android:orderInCategory="100"
+        android:title="Home"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/map"
+        android:orderInCategory="100"
+        android:title="Map"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/ranking"
+        android:orderInCategory="100"
+        android:title="Ranking"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/settings"
+        android:orderInCategory="100"
+        android:title="Settings"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/logOut"
+        android:orderInCategory="100"
+        android:title="Log out"
+        app:showAsAction="never"
+        />
+</menu>

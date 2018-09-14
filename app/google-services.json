@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "216416611140",
+    "firebase_url": "https://attractionsofnis-1532433193596.firebaseio.com",
+    "project_id": "attractionsofnis-1532433193596",
+    "storage_bucket": "attractionsofnis-1532433193596.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:216416611140:android:156baf3fde943da4",
+        "android_client_info": {
+          "package_name": "com.example.a38162.attractionsofnis"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "216416611140-l99md0a45eidpm4mmia6he68qnq44ss0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwznLSKOwZmshhabtBRGCPg8tyD97uMgE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

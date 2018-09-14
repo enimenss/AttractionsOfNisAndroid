@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/forestgreen"
+    tools:context="com.example.a38162.attractionsofnis.RankUserActivity">
+
+    <LinearLayout
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <TextView
+            android:id="@+id/textView_ranking"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Your best ranked friends:"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+        <ListView
+            android:id="@+id/list_rankFriends"
+            android:layout_width="match_parent"
+            android:layout_height="200dp" />
+
+        <TextView
+            android:id="@+id/textView_rankBest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Best ranked players:"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+        <ListView
+            android:id="@+id/list_rankPlayers"
+            android:layout_width="match_parent"
+            android:layout_height="200dp" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
